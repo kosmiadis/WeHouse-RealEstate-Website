@@ -1,0 +1,86 @@
+div.container1 {
+    background-image: url('../../assets/back1.jpg');
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content 1fr;
+
+    header {
+        background-color: black;
+        padding: 1rem 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    * {
+        color: white;
+        
+    }
+    div.centered {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+
+        h1 {
+            font-size: 15vw;
+            font-family: serif;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 4vw;
+            font-weight: 900;
+            font-family: 'Poppins';
+        }
+
+        button {
+            margin-top: 3rem;
+            font-family: 'Poppins';
+            background-color: black;
+            outline: none;
+            border: none;
+            padding: 1rem 5rem;
+            font-size: 1rem;
+            transition: all 0.2s ease-in-out;
+            border-radius: 2px;
+            
+            &:hover {
+                background-color: white;
+                color: black;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    div.container {
+
+        
+        img {
+            width: 300px;
+        }
+
+        div.centered {
+
+            h1 {
+                font-size: 9vw;
+            }
+
+            p {
+                font-size: 1.8rem;
+            }
+
+            button {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

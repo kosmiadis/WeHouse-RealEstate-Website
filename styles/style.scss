@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+
+@import "containers/container1.scss";
+@import "containers/container2.scss";
+@import "containers/container3.scss";
+@import "containers/container4.scss";
+@import "containers/container5.scss";
+
+body {
+    margin: 0;
+
+    * {
+        margin: 0;
+    }
+
+    div.container {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
