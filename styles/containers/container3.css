@@ -1,5 +1,6 @@
 div.container3 {
   background-image: url("../../assets/back3.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +33,7 @@ div.container3 div.paragraphs {
 div.container3 div.paragraphs div.paragraph {
   margin: auto;
   background-color: white;
-  max-width: 450px;
+  max-width: 350px;
   padding: 2rem;
   transition: all 0.2s ease-in;
 }
