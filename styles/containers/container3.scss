@@ -3,7 +3,6 @@ div.container3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    backdrop-filter: sepia(80%);
     padding: 4rem 2rem;
     * {
         font-family: "Poppins";
@@ -44,6 +43,18 @@ div.container3 {
                 color: black;
                 cursor: pointer;
             }
+        }
+    }
+}
+
+@media screen and (min-width: 789px) {
+    div.container3 {
+
+        div.centered {  
+            justify-self: center;
+            align-self: center;
+            padding: 5rem;
+            max-width: 750px;
         }
     }
 }
