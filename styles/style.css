@@ -113,6 +113,10 @@ div.container2 img {
   }
 }
 
+div.container5 img {
+  width: 80%;
+}
+
 body {
   margin: 0;
 }
