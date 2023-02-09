@@ -4,8 +4,9 @@ div.container2 {
   background-color: black;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: white;
-  padding: 3rem 2rem;
+  padding: 3rem;
   gap: 3rem;
 }
 
@@ -14,6 +15,8 @@ div.container2 * {
 }
 
 div.container2 div.text {
+  display: flex;
+  flex-direction: column;
   max-width: 500px;
 }
 
@@ -25,6 +28,31 @@ div.container2 div.text span {
 
 div.container2 div.text h1 {
   font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+div.container2 div.text button {
+  align-self: center;
+  color: white;
+  margin-top: 1rem;
+  font-family: 'Poppins';
+  background-color: black;
+  outline: none;
+  border: none;
+  padding: 1rem 5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+
+div.container2 div.text button:hover {
+  background-color: #dddcdc;
+  color: black;
+  cursor: pointer;
+}
+
+div.container2 div.text p {
+  font-size: 3vw;
 }
 
 div.container2 img {
@@ -35,5 +63,14 @@ div.container2 img {
 @media screen and (min-width: 789px) {
   div.container2 {
     flex-direction: row;
+  }
+  div.container2 div.text button {
+    align-self: flex-start;
+  }
+  div.container2 div.text span {
+    font-size: 1.2rem;
+  }
+  div.container2 div.text h1 {
+    font-size: 2.5rem;
   }
 }
