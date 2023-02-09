@@ -153,6 +153,54 @@ div.container2 img {
   }
 }
 
+div.container3 {
+  background-image: url("../../assets/back2.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+div.container3 * {
+  font-family: "Poppins";
+}
+
+div.container3 div.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.container3 div.centered h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+div.container3 div.centered p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+div.container3 div.centered button {
+  align-self: center;
+  color: white;
+  margin-top: 1rem;
+  font-family: 'Poppins';
+  background-color: black;
+  outline: none;
+  border: none;
+  padding: 1rem 5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+
+div.container3 div.centered button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 div.container5 img {
   width: 80%;
 }
@@ -168,6 +216,4 @@ body * {
 body div.container {
   min-height: 100vh;
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
 }

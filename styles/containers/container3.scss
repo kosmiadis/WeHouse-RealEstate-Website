@@ -1,0 +1,46 @@
+div.container3 {
+    background-image: url('../../assets/back2.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    * {
+        font-family: "Poppins";
+    }
+
+    div.centered {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        button {
+            align-self: center;
+            color: white;
+            margin-top: 1rem;
+            font-family: 'Poppins';
+            background-color: black;
+            outline: none;
+            border: none;
+            padding: 1rem 5rem;
+            font-size: 1rem;
+            transition: all 0.2s ease-in-out;
+            border-radius: 2px;
+            
+            &:hover {
+                background-color: rgb(255, 255, 255);
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}
