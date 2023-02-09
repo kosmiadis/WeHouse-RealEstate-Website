@@ -13,7 +13,10 @@ body {
     }
 
     div.container {
-        min-height: 100vh;
         background-size: cover;
+    }
+
+    div.container1, div.container2, div.container3 {
+        min-height: 100vh;
     }
 }

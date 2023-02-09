@@ -45,6 +45,7 @@ div.container3 div.paragraphs div.paragraph:hover {
 div.container3 button {
   color: black;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   font-family: 'Poppins';
   background-color: white;
   outline: none;
