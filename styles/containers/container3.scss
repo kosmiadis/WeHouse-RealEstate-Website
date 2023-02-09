@@ -3,58 +3,68 @@ div.container3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 4rem;
+    gap: 3rem;
+    height: min-content;
+
     * {
         font-family: "Poppins";
     }
 
-    div.centered {
-        padding: 1rem;
-        background-color: rgba(255, 255, 255, 0.606);
+    h1 {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 2.4rem;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+        font-weight: 900;
+    }
+
+    div.paragraphs {
+        margin-top: 3rem;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
         align-items: center;
-
-        h1 {
-            font-size: 2rem;
-            text-align: center;
-        }
-
-        p {
-            font-size: 1.2rem;
-            text-align: center;
-        }
-
-        button {
-            align-self: center;
-            color: white;
-            margin-top: 1rem;
-            font-family: 'Poppins';
-            background-color: black;
-            outline: none;
-            border: none;
-            padding: 1rem 5rem;
-            font-size: 1rem;
-            transition: all 0.2s ease-in-out;
-            border-radius: 2px;
-            
+        div.paragraph {
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            max-width: 450px;
+            padding: 2rem;
+            transition: all 0.2s ease-in;
             &:hover {
-                background-color: rgb(255, 255, 255);
-                color: black;
-                cursor: pointer;
+                transform: scale(1.05);
             }
         }
     }
+
+    button {
+        color: black;
+        margin-top: 3rem;
+        font-family: 'Poppins';
+        background-color: white;
+        outline: none;
+        border: none;
+        padding: 1rem 5rem;
+        font-size: 1rem;
+        transition: all 0.2s ease-in-out;
+        border-radius: 2px;
+        
+        &:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    
 }
 
 @media screen and (min-width: 789px) {
     div.container3 {
 
-        div.centered {  
-            justify-self: center;
-            align-self: center;
-            padding: 5rem;
-            max-width: 750px;
+        h1 {
+            font-size: 3.4rem;
         }
+        
     }
 }
