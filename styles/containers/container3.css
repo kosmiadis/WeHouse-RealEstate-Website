@@ -3,7 +3,7 @@ div.container3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem;
   gap: 3rem;
   height: min-content;
 }
@@ -61,6 +61,9 @@ div.container3 button:hover {
 }
 
 @media screen and (min-width: 789px) {
+  div.container3 {
+    padding: 4rem;
+  }
   div.container3 h1 {
     font-size: 3.4rem;
   }
